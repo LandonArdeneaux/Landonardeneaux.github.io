@@ -1,5 +1,5 @@
 body {
-    background: rgb(45, 132, 139);
+    background: rgb(216, 16, 16);
     color: rgb(45, 45, 45);
     padding: 10px;
     font-family: arial;
@@ -20,7 +20,7 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color: white;
+    color: rgb(255, 255, 255);
     flex: 1;
     margin: 0;
 }
@@ -38,7 +38,7 @@ a {
 
 /* main container area beneath menu */
 main {
-    background: rgb(245, 238, 219);
+    background: rgb(179, 99, 25);
     display: flex;
 }
 .sidebar {
@@ -55,9 +55,14 @@ main {
 
 /* portfolio styles */
 #interests {
-    border: 4px silver ridge;
+    border: 4px rgb(43, 231, 43) ridge;
     padding: 8px;
 }
 h2, h3 {
     margin: 0px;
+}
+/*portfolio */
+#Games and Other Fun Stuff{
+    border: 4px rgb(107, 133, 48) ridge;
+padding: 8px;
 }
