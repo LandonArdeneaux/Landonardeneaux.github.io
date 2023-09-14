@@ -1,5 +1,5 @@
 body {
-    background: rgb(216, 16, 16);
+    background: rgb(216, 0, 0);
     color: rgb(45, 45, 45);
     padding: 10px;
     font-family: arial;
@@ -11,7 +11,7 @@ body {
 
 /* navigation menu */
 nav {
-    background: rgb(239, 80, 41);
+    background: rgb(78, 61, 141);
    margin: 0 auto;
    margin-bottom: 20px;
     display: flex;
@@ -38,7 +38,7 @@ a {
 
 /* main container area beneath menu */
 main {
-    background: rgb(179, 99, 25);
+    background: rgb(9, 247, 255);
     display: flex;
 }
 .sidebar {
@@ -63,6 +63,6 @@ h2, h3 {
 }
 /*portfolio */
 #Games and Other Fun Stuff{
-    border: 4px rgb(107, 133, 48) ridge;
+    border: 4px rgb(29, 150, 187) ridge;
 padding: 8px;
 }
