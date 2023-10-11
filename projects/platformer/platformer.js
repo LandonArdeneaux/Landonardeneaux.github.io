@@ -45,7 +45,7 @@ $(function () {
     // example usage: createPlatform(x,y,width,height)
 
        
-       createPlatform(100,150,400,20)
+       createPlatform(50,150,500,20)
        createPlatform(1080,150,400,20)
        createPlatform(750,150,400,20)
        createPlatform(750,600,40,20)
@@ -55,7 +55,7 @@ $(function () {
        createPlatform(700,360,40,20)
        createPlatform(650,400,40,20)
        createPlatform(500,250,40,20)
-       createPlatform(100,0,10,600)
+       createPlatform(100,150,10,450)
 
 
 
@@ -69,7 +69,7 @@ $(function () {
     createCollectable("database", 600, 250, 5, 1)
     createCollectable("database", 100, 100, 5, 1)
     createCollectable("database", 1000, 700, 5, 1)
-
+    createCollectable("database",0,600,3,1)
 
 
     // TODO 3
@@ -78,10 +78,10 @@ $(function () {
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
 
-    createCannon("right", 150, 900, 20, 30)
-    createCannon("top", 100, 900, 20, 30)
-    createCannon("right", 700, 900, 20, 30)
-    createCannon("top", 700, 900, 20, 30)
+    createCannon("right", 200, 900, 52, 50)
+    createCannon("top", 100, 900, 175, 100)
+    createCannon("right", 700, 900, 52, 50)
+    createCannon("top", 700, 745, 30, 75)
 
 
     /////////////////////////////////////////////////
